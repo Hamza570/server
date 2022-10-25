@@ -329,8 +329,8 @@ router.post("/ledgerRokar", async (req, res) => {
                     "accountDetails": 1,
                     "transectionType": 1,
                     "amount": 1,
-                    "description": 1,
-                    "address":1
+                    "description": 1
+                   
                 }
             },
 
