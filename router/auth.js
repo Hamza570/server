@@ -10,7 +10,7 @@ const MaalLedger = require('../model/maalLedgerSchema')
 const mongoose = require('mongoose')
 
 router.get("/", (req, res) => {
-    res.send("Home")
+    res.send("Hello Updating Live Bro")
 })
 
 router.post("/register", async (req, res) => {
